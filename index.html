@@ -8,82 +8,101 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css” />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-    <header>
-        <nav>
-        <a href="" class="header-logo link">Web<span class="header-logo-item">Studio</span></a>
-        <ul class="list">
-            <li><a href="" class="header-nav-link link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="header-nav-link link">Портфолио</a></li>
-            <li><a href="" class="header-nav-link link">Контакты</a></li>
+    <header class="header">
+        <div class="container section-header">
+        <nav class="site-nav"><a href="" class="header-logo link">Web<span class="header-logo-item">Studio</span></a>
+        <ul class="list nav-block">
+            <li class="nav-items"><a href="" class="header-nav-link link current">Студия</a></li>
+            <li class="nav-items"><a href="./portfolio.html" class="header-nav-link link">Портфолио</a></li>
+            <li class="nav-items"><a href="" class="header-nav-link link">Контакты</a></li>
         </ul>
         </nav>
-        <ul class="list">
-            <li><a href="mailto:info@devstudio.com"  class="header-mail link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
+        <ul class="list nav-cont-block">
+            <li class="nav-cont"><a href="mailto:info@devstudio.com"  class="header-mail link">info@devstudio.com</a></li>
+            <li class="nav-cont"><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
         </ul> 
+    </div>
     </header>
     <main class="main-body">
     <section class="hero">
+        <div class="container">
         <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-btn">Заказать услугу</button>
+    </div>
     </section>
-    <section>
-        <ul class="list">
-            <li>
+    <section class="specifics">
+        <div class="container">
+        <ul class="list specifics-list">
+            <li class="specifics-block">
                 <h3 class="specifics-title">Внимание к деталям</h3>
                 <p class="specifics-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
+            <li class="specifics-block">
                 <h3 class="specifics-title">Пунктуальность</h3>
                 <p class="specifics-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li>
+            <li class="specifics-block">
                 <h3 class="specifics-title">Планирование</h3>
                 <p class="specifics-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li>
+            <li class="specifics-block">
                 <h3 class="specifics-title">Современные технологии</h3>
                 <p class="specifics-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
+    </div>
     </section>
-    <section>
+    <section class="main-work-gal">
+        <div class="container">
         <h2 class="main-work">Чем мы занимаемся</h2>
-        <ul class="list">
-            <li><img src="./images/tablet-1.jpg" alt="рабочий стол" width="370" height="294"></li>
-            <li><img src="./images/tablet-2.jpg" alt="работа на ноутбуке с телефоном" width="370" height="294"></li>
-            <li><img src="./images/tablet-3.jpg" alt="планшет в руке" width="370" height="294"></li>
+        <ul class="list main-work-list">
+            <li class="main-work-item"><img src="./images/tablet-1.jpg" alt="рабочий стол" width="370" height="294"></li>
+            <li class="main-work-item"><img src="./images/tablet-2.jpg" alt="работа на ноутбуке с телефоном" width="370" height="294"></li>
+            <li class="main-work-item"><img src="./images/tablet-3.jpg" alt="планшет в руке" width="370" height="294"></li>
         </ul>
+    </div>
     </section>
     <section class="team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
-        <ul class="list">
+        <ul class="list team-lead-list">
             <li class="team-lead">
                 <img src="./images/team-1.jpg" alt="портрет дизайнера" width="270" height="260">
+                    <div class="team-block">
                     <h3 class="team-lead-title">Игорь Демьяненко</h3>
                     <p class="team-lead-text" lang="en"> Product Designer</p>
+                    </div> 
             </li>
             <li class="team-lead">
                 <img src="./images/team-2.jpg" alt="портрет разроботчика" width="270" height="260">
-                    <h3 class="team-lead-title">Ольга Репина</h3>
-                    <p class="team-lead-text" lang="en">Frontend Developer</p>
+                    <div class="team-block">
+                        <h3 class="team-lead-title">Ольга Репина</h3>
+                        <p class="team-lead-text" lang="en">Frontend Developer</p>
+                    </div>
             </li>
             <li class="team-lead">
                 <img src="./images/team-3.jpg" alt="портрет маркетолога" width="270" height="260">
-                    <h3 class="team-lead-title">Николай Тарасов</h3>
-                    <p class="team-lead-text" lang="en">Marketing</p>
+                    <div class="team-block">
+                        <h3 class="team-lead-title">Николай Тарасов</h3>
+                        <p class="team-lead-text" lang="en">Marketing</p>
+                    </div>
             </li>
             <li class="team-lead">
                 <img src="./images/team-4.jpg" alt="портрет UI дизайнера" width="270" height="260">
-                    <h3 class="team-lead-title">Михаил Ермаков</h3>
-                    <p class="team-lead-text" lang="en">UI Designer</p>
+                    <div class="team-block">
+                        <h3 class="team-lead-title">Михаил Ермаков</h3>
+                        <p class="team-lead-text" lang="en">UI Designer</p>
+                    </div>
             </li>
         </ul>
+    </div>
     </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <a href="" class="header-logo link">Web<span class="footer-logo-item">Studio</span></a>
         <address>
         <ul class="list">
@@ -92,6 +111,7 @@
             <li><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
         </ul>
        </address> 
+    </div>
     </footer>
 </body>
 </html>
