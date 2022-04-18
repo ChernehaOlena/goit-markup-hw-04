@@ -11,21 +11,23 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-        <a href="" class="header-logo link">Web<span class="header-logo-item">Studio</span></a>
-        <ul class="list">
-            <li><a href="./index.html" class="header-nav-link link">Студия</a></li>
-            <li><a href="" class="header-nav-link current link">Портфолио</a></li>
-            <li><a href="" class="header-nav-link link">Контакты</a></li>
+    <header class="header">
+        <div class="container section-header">
+        <nav class="site-nav"><a href="" class="header-logo link">Web<span class="header-logo-item">Studio</span></a>
+        <ul class="list nav-block">
+            <li class="nav-items"><a href="" class="header-nav-link link ">Студия</a></li>
+            <li class="nav-items"><a href="./portfolio.html" class="header-nav-link link current">Портфолио</a></li>
+            <li class="nav-items"><a href="" class="header-nav-link link">Контакты</a></li>
         </ul>
         </nav>
-        <ul class="list">
-            <li><a href="mailto:info@devstudio.com" class="header-mail link" >info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
+        <ul class="list nav-cont-block">
+            <li class="nav-cont"><a href="mailto:info@devstudio.com"  class="header-mail link">info@devstudio.com</a></li>
+            <li class="nav-cont"><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
         </ul> 
+    </div>
     </header>
     <main>
+        <div class="container">
         <section>
             <h1 class="visually-hidden">Портфолио</h1>
                 <ul class="list">
@@ -83,8 +85,10 @@
                 </li>
             </ul>  
         </section>
+    </div>
        </main>
        <footer class="footer">
+           <div class="container">
         <a href="" class="header-logo link">Web<span class="footer-logo-item">Studio</span></a>
         <address>
         <ul class="list">
@@ -93,6 +97,7 @@
             <li><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
         </ul>
        </address> 
+    </div>
     </footer>
 </body>
 </html>
