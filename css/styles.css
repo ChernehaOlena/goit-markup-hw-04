@@ -48,7 +48,6 @@ body {
     background: white; 
     letter-spacing: 0.03em;
     font-size: 14px;
-    cursor:pointer;
     margin: 0px;
     }
 
@@ -61,8 +60,6 @@ img{
     max-width: 100%;
     height: auto;
 }
-
-
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -124,7 +121,7 @@ img{
     padding-bottom: 32px;
     text-align: center;
     margin-right: 50px;
-}
+  }
 
 .nav-items:last-child, .nav-cont:last-child{
     margin-right: 0px;
@@ -137,8 +134,8 @@ img{
     color: var(--accent-color);
     display: block;
     padding-top: 24px;
-    padding-bottom: 25px;
-       
+    margin-bottom: 25px;
+   
 }
 
 .header-logo-item{
@@ -180,9 +177,7 @@ img{
     color: var(--accent-color);
 }
 
-
 /* -------------------------------------------------Main-------------------------------------------------- */
-
 
 .hero{
     background: var(--hero-bgr-color);
@@ -219,6 +214,7 @@ img{
     border-color: transparent;
     border-radius: 4px;
     box-shadow: 0px 4px 4px var(--btn-shadow);
+    cursor:pointer;
 }
 
 .hero-btn:hover, .hover-btn:focus{
@@ -248,7 +244,7 @@ img{
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--specifics-title-color);
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .specifics-text{
@@ -261,7 +257,7 @@ img{
     font-size: 36px;
     line-height: 1.16;
     color: var(--main-work);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .main-work-list{
@@ -296,7 +292,7 @@ img{
     line-height: 1.16;
     color: var(--team-title-color);
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-lead{
@@ -315,6 +311,7 @@ margin-right: 0px;
     line-height: 1.18;
     text-align: center;
     color: var(--team-lead-title);
+    margin-bottom: 10px;
 }
 
 .team-lead-text{
@@ -326,6 +323,8 @@ margin-right: 0px;
 /* -------------------------------------Footer--------------------------- */
 .footer{
     background: var(--footer-bgr-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo-item{
@@ -364,7 +363,12 @@ margin-right: 0px;
     color: var(--accent-color);
 }
 
-.main-body {
+.footer-item {
+    margin-bottom: 9px;
+}
+.footer-item:last-child{
+    margin-bottom: 0px;
+}.main-body {
       background: var(--main-body);
 }
 
@@ -418,14 +422,12 @@ margin-right: 0px;
 }   
 
 .works {
-    background: var(--works-bgr);
     border: 1px solid var(--works-border-box);
-    box-sizing: border-box;
     display: block;
     flex-basis: calc(100% / 3 - var(--works-block));
     margin-left: var(--works-block);
     margin-top: var(--works-block);
-    }
+}
 
 .works-title{
     font-weight: 700;
@@ -433,7 +435,8 @@ margin-right: 0px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--works-title);
-    }
+    margin-bottom: 4px;
+}
 
 .works-text{
     font-size: 16px;
